@@ -28,7 +28,8 @@ const connectDB = mongoose
         console.log("Connection to MongoDB successful");
     })
     .catch((error) => {
-        console.error("MongoDB Connection error:", error);
+        console.error("MongoDB Connection error:", error.message);
+        process.exit(1) //exit the application on connection error
     });
 
 const PORT = process.env.PORT;
