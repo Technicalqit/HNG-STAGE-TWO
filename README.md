@@ -26,7 +26,7 @@ A simple REST API capable of crud operations on a "person" resource that interfa
     - Description : Delete a person
 
 ## Documentation
-- <a href = ""> Complete API documentation</a>
+- <a href = "https://github.com/Technicalqit/HNG-STAGE-TWO/blob/main/DOCUMENTATION.md"> Complete API documentation</a>
 
 ## Set Up
 - Clone this repository : `gitclone 'repo's url'`
